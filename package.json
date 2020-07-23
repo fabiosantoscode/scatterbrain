@@ -1,0 +1,25 @@
+{
+  "name": "scatterbrain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "imports": {
+    "#lib/": "./lib/"
+  },
+  "exports": {
+    "./webpack": "./lib/webpack.js",
+    "./jest": "./lib/jest.js"
+  },
+  "scripts": {
+    "test": "node test/functional.js"
+  },
+  "engines": {
+    "node": ">=14.6.0"
+  },
+  "author": "",
+  "repository": "https://github.com/fabiosantoscode/scatterbrain",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.0.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "functional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest ./test-script.test.js"
+  },
+  "imports": {
+    "#src/": "./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "scatterbrain": "file://../../../"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^4.0.0",
+    "jest": "^26.1.0"
+  }
+}
